@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Chris Patterson",
+  "classifications": [ "MassTransit", "Consumer" ],
+  "identity": "MassTransit.Templates.Consumer",
+  "name": "MassTransit Message Consumer",
+  "description": "A MassTransit message consumer",
+  "shortName": "mtconsumer",
+  "tags": {
+    "language": "C#",
+    "type": "item"
+  },
+  "defaultName": "MessageName",
+  "sourceName": "MessageName",
+  "symbols": {
+    "namespace": {
+      "description": "Namespace for the generated code",
+      "replaces": "Company",
+      "type": "parameter"
+    }
+  }
+}

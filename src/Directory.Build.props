@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Version>1.0.0</Version>
+    <WarnOnPackingNonPackableProject>false</WarnOnPackingNonPackableProject>
+    <NoWarn>$(NoWarn);NU5105</NoWarn>
+    <RepositoryUrl>https://github.com/MassTransit/MassTransit-Templates</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/MassTransit/MassTransit-Templates</PackageProjectUrl>
+    <PackageReleaseNotes>https://github.com/MassTransit/MassTransit-Templates/releases</PackageReleaseNotes>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>masstransit</PackageTags>
+  </PropertyGroup>
+</Project>
