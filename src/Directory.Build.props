@@ -5,6 +5,7 @@
     <WarnOnPackingNonPackableProject>false</WarnOnPackingNonPackableProject>
     <NoWarn>$(NoWarn);NU5105</NoWarn>
     <RepositoryUrl>https://github.com/MassTransit/MassTransit-Templates</RepositoryUrl>
+    <PackageIcon>mt-logo-small.png</PackageIcon>
     <PackageProjectUrl>https://github.com/MassTransit/MassTransit-Templates</PackageProjectUrl>
     <PackageReleaseNotes>https://github.com/MassTransit/MassTransit-Templates/releases</PackageReleaseNotes>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
