@@ -14,6 +14,7 @@
     <NoWarn>$(NoWarn);NU5128</NoWarn>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="mt-logo-small.png" Pack="true" Visible="false" PackagePath=""/>
     <Content Include="Content\**\*" Exclude="Content\**\bin\**;Content\**\obj\**;**/.DS_Store;**/.idea/**" />
     <Compile Remove="**\*" />
   </ItemGroup>
