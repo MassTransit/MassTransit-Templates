@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Chris Patterson",
+  "classifications": [ "MassTransit", "StateMachine" ],
+  "identity": "MassTransit.Templates.StateMachine",
+  "name": "MassTransit State Machine Saga",
+  "description": "A MassTransit State Machine (Automatonymous) Saga",
+  "shortName": "mtstatemachine",
+  "tags": {
+    "language": "C#",
+    "type": "item"
+  },
+  "defaultName": "MachineName",
+  "sourceName": "MachineName",
+  "symbols": {
+    "namespace": {
+      "description": "Namespace for the generated code",
+      "replaces": "Company",
+      "type": "parameter"
+    }
+  }
+}

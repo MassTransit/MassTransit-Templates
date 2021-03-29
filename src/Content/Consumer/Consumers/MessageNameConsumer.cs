@@ -1,6 +1,5 @@
 namespace Company.Consumers
 {
-    using System;
     using System.Threading.Tasks;
     using MassTransit;
     using Contracts;
