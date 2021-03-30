@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Chris Patterson",
+  "classifications": [ "MassTransit", "Saga" ],
+  "identity": "MassTransit.Templates.Saga",
+  "name": "MassTransit Consumer Saga",
+  "description": "A MassTransit consumer saga",
+  "shortName": "mtsaga",
+  "tags": {
+    "language": "C#",
+    "type": "item"
+  },
+  "defaultName": "SagaName",
+  "sourceName": "SagaName",
+  "symbols": {
+    "namespace": {
+      "description": "Namespace for the generated code",
+      "replaces": "Company",
+      "type": "parameter"
+    }
+  }
+}

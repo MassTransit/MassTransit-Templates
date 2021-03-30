@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Chris Patterson",
+  "classifications": [ "MassTransit", "Activity" ],
+  "identity": "MassTransit.Templates.Activity",
+  "name": "MassTransit Routing Slip Activity",
+  "description": "A MassTransit routing slip activity with compensation",
+  "shortName": "mtactivity",
+  "tags": {
+    "language": "C#",
+    "type": "item"
+  },
+  "defaultName": "ActivityName",
+  "sourceName": "ActivityName",
+  "symbols": {
+    "namespace": {
+      "description": "Namespace for the generated code",
+      "replaces": "Company",
+      "type": "parameter"
+    }
+  }
+}
