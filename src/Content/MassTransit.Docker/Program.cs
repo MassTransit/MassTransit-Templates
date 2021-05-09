@@ -27,7 +27,7 @@ namespace MassTransit.Docker
                 {
                     services.AddMassTransit(x =>
                     {
-                        x.AddRabbitMqMessageScheduler();
+                        x.AddDelayedMessageScheduler();
 
                         x.SetKebabCaseEndpointNameFormatter();
 
@@ -47,7 +47,7 @@ namespace MassTransit.Docker
                             if (IsRunningInContainer)
                                 cfg.Host("rabbitmq");
 
-                            cfg.UseRabbitMqMessageScheduler();
+                            cfg.UseDelayedMessageScheduler();
                             
                             cfg.ConfigureEndpoints(context);
                         });
