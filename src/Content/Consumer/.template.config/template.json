@@ -3,6 +3,7 @@
   "author": "Chris Patterson",
   "classifications": [ "MassTransit", "Consumer" ],
   "identity": "MassTransit.Templates.Consumer",
+  "groupIdentity": "MassTransit",
   "name": "MassTransit Message Consumer",
   "description": "A MassTransit message consumer",
   "shortName": "mtconsumer",

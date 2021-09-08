@@ -3,6 +3,7 @@
   "author": "Chris Patterson",
   "classifications": [ "MassTransit", "Saga" ],
   "identity": "MassTransit.Templates.Saga",
+  "groupIdentity": "MassTransit",
   "name": "MassTransit Consumer Saga",
   "description": "A MassTransit consumer saga",
   "shortName": "mtsaga",

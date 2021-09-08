@@ -3,6 +3,7 @@
   "author": "Chris Patterson",
   "classifications": [ "MassTransit", "Activity" ],
   "identity": "MassTransit.Templates.Activity",
+  "groupIdentity": "MassTransit",
   "name": "MassTransit Routing Slip Activity",
   "description": "A MassTransit routing slip activity with compensation",
   "shortName": "mtactivity",

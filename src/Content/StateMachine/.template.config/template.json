@@ -3,6 +3,7 @@
   "author": "Chris Patterson",
   "classifications": [ "MassTransit", "StateMachine" ],
   "identity": "MassTransit.Templates.StateMachine",
+  "groupIdentity": "MassTransit",
   "name": "MassTransit State Machine Saga",
   "description": "A MassTransit State Machine (Automatonymous) Saga",
   "shortName": "mtstatemachine",

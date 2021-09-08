@@ -1,31 +1,32 @@
 {
-    "$schema": "http://json.schemastore.org/template",
-    "author": "Chris Patterson",
-    "classifications": [ "MassTransit", "Docker" ],
-    "identity": "MassTransit.Templates.Docker",
-    "name": "MassTransit Docker",
-    "description": "A simple MassTransit service using RabbitMQ running in Docker",
-    "shortName": "mtdocker",
-    "tags": {
-      "language": "C#",
-      "type": "project"
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Chris Patterson",
+  "classifications": [ "MassTransit", "Docker" ],
+  "identity": "MassTransit.Templates.Docker",
+  "groupIdentity": "MassTransit",
+  "name": "MassTransit Docker",
+  "description": "A simple MassTransit service using RabbitMQ running in Docker",
+  "shortName": "mtdocker",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "MassTransit.Docker",
+  "preferNameDirectory": true,
+  "symbols":{
+    "version": {
+      "type": "parameter",
+      "datatype": "string",
+      "description": "Specify a specific MassTransit version",
+      "defaultValue": "[7.2.2,8.0)",
+      "replaces":"[7.2.2,8.0)"
     },
-    "sourceName": "MassTransit.Docker",
-    "preferNameDirectory": true,
-    "symbols":{
-      "version": {
-        "type": "parameter",
-        "datatype": "string",
-        "description": "Specify a specific MassTransit version",
-        "defaultValue": "[7.1.7,8.0)",
-        "replaces":"[7.1.7,8.0)"
-      },
-      "RenameDockerIgnore": {
-        "type": "parameter",
-        "datatype": "string",
-        "description": "No need to specify, will rename by default",
-        "FileRename": "Docker.Ignore",
-        "defaultValue": ".dockerignore"
-      }
+    "RenameDockerIgnore": {
+      "type": "parameter",
+      "datatype": "string",
+      "description": "No need to specify, will rename by default",
+      "FileRename": "Docker.Ignore",
+      "defaultValue": ".dockerignore"
     }
   }
+}
