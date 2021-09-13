@@ -3,7 +3,6 @@
   "author": "Chris Patterson",
   "classifications": [ "MassTransit", "ExecuteActivity" ],
   "identity": "MassTransit.Templates.ExecuteActivity",
-  "groupIdentity": "MassTransit",
   "name": "MassTransit Routing Slip Execute Activity",
   "description": "A MassTransit routing slip execute activity",
   "shortName": "mtexecactivity",

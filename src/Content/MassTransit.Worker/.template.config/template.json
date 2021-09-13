@@ -1,23 +1,22 @@
 {
-  "$schema": "http://json.schemastore.org/template",
-  "author": "Chris Patterson",
-  "classifications": [ "MassTransit", "Worker" ],
-  "identity": "MassTransit.Templates.Worker",
-  "groupIdentity": "MassTransit",
-  "name": "MassTransit Worker",
-  "description": "A simple MassTransit service using the in-memory transport",
-  "shortName": "mtworker",
-  "tags": {
-    "language": "C#",
-    "type": "project"
-  },
-  "sourceName": "MassTransit.Worker",
-  "preferNameDirectory": true,
-  "symbols":{
-    "version": {
-    "type": "parameter",
-    "defaultValue": "[7.2.2,8.0)",
-    "replaces":"[7.2.2,8.0)"
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Chris Patterson",
+    "classifications": [ "MassTransit", "Worker" ],
+    "identity": "MassTransit.Templates.Worker",
+    "name": "MassTransit Worker",
+    "description": "A simple MassTransit service using the in-memory transport",
+    "shortName": "mtworker",
+    "tags": {
+      "language": "C#",
+      "type": "project"
+    },
+    "sourceName": "MassTransit.Worker",
+    "preferNameDirectory": true,
+    "symbols":{
+      "version": {
+      "type": "parameter",
+      "defaultValue": "[7.1.7,8.0)",
+      "replaces":"[7.1.7,8.0)"
+      }
     }
   }
-}
