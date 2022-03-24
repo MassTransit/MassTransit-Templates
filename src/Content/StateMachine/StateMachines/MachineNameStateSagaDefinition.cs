@@ -1,8 +1,6 @@
 namespace Company.StateMachines
 {
-    using GreenPipes;
     using MassTransit;
-    using MassTransit.Definition;
 
     public class MachineNameStateSagaDefinition :
         SagaDefinition<MachineNameState>

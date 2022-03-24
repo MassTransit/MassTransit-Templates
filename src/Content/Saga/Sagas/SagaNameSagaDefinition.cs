@@ -1,8 +1,6 @@
 namespace Company.Sagas
 {
-    using GreenPipes;
     using MassTransit;
-    using MassTransit.Definition;
 
     public class SagaNameSagaDefinition :
         SagaDefinition<SagaNameSaga>

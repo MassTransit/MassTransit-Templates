@@ -57,5 +57,19 @@ Get help live at the MassTransit Discord server.
 
 [![alt Join the conversation](https://img.shields.io/discord/682238261753675864.svg "Discord")](https://discord.gg/rNpQgYn)
 
+## Testing
+
+Install the dev package
+
+```sh
+./scripts/install-dev
+```
+
+Uninstall the dev package, and reinstall the latest release
+
+```sh
+./scripts/uninstall-dev
+```
+
 # CREDITS
 Logo Design by _The Agile Badger_
