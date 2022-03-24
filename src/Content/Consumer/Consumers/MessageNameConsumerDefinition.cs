@@ -1,9 +1,6 @@
 namespace Company.Consumers
 {
-    using GreenPipes;
     using MassTransit;
-    using MassTransit.ConsumeConfigurators;
-    using MassTransit.Definition;
 
     public class MessageNameConsumerDefinition :
         ConsumerDefinition<MessageNameConsumer>

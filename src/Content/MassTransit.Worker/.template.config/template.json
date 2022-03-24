@@ -15,8 +15,8 @@
     "symbols":{
       "version": {
       "type": "parameter",
-      "defaultValue": "[7.1.7,8.0)",
-      "replaces":"[7.1.7,8.0)"
+      "defaultValue": "[8.0.0,9.0)",
+      "replaces":"[8.0.0,9.0)"
       }
     }
   }

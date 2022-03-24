@@ -4,7 +4,6 @@ namespace Company.Sagas
     using System.Linq.Expressions;
     using System.Threading.Tasks;
     using MassTransit;
-    using MassTransit.Saga;
     using Contracts;
 
     public class SagaNameSaga :

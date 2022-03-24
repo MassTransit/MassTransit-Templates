@@ -2,7 +2,6 @@ namespace Company.Activities
 {
     using System.Threading.Tasks;
     using MassTransit;
-    using MassTransit.Courier;
 
     public class ActivityNameActivity :
         IExecuteActivity<ActivityNameArguments>

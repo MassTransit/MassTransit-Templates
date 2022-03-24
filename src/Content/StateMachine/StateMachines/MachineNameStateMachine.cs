@@ -1,7 +1,7 @@
 namespace Company.StateMachines
 {
-    using Automatonymous;
     using Contracts;
+    using MassTransit;
 
     public class MachineNameStateMachine :
         MassTransitStateMachine<MachineNameState> 

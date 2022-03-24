@@ -52,8 +52,6 @@ namespace MassTransit.Docker
                             cfg.ConfigureEndpoints(context);
                         });
                     });
-
-                    services.AddMassTransitHostedService(true);
                 });
     }
 }
