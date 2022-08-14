@@ -14,7 +14,7 @@ namespace Company.StateMachines
 
             Initially(
                 When(MachineNameEvent)
-                    .Then(context => context.Instance.Value = context.Data.Value)
+                    .Then(context => context.Saga.Value = context.Message.Value)
                     .TransitionTo(Created)
             );
 
