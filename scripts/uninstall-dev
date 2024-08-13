@@ -1,4 +1,4 @@
 #!/bin/bash
 
-dotnet new --uninstall MassTransit.Templates
-dotnet new --install MassTransit.Templates
+dotnet new uninstall MassTransit.Templates
+dotnet new install MassTransit.Templates

@@ -4,7 +4,7 @@
 dotnet pack ./src
 
 if dotnet new -l | grep MassTransit; then
-    dotnet new --uninstall MassTransit.Templates
+    dotnet new uninstall MassTransit.Templates
 fi
 
-dotnet new --install ./src/bin/Debug/MassTransit.Templates.1.0.5.nupkg
+dotnet new install ./src/bin/Release/MassTransit.Templates.1.0.7.nupkg
